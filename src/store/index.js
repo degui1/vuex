@@ -55,5 +55,21 @@ export default createStore({
     }
   },
   modules: {
+    users: {
+      state: () => ({
+        first_name: "Testando os módulos"
+      }),
+      mutations: {},
+      getters: {},
+      actions: {}
+    },
+    carrinho: {
+      state: () => ({
+        teste: "acc?lvpbetmkionopdbgfm os módulos"
+      }),
+      mutations: {},
+      getters: {},
+      actions: {}
+    }
   }
 })

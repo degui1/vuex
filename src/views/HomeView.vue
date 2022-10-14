@@ -1,5 +1,9 @@
 <template>
   <div class="">
+    <!-- //modules -->
+    {{this.$store.state.users}}
+    {{this.$store.state.carrinho}}
+    <br><br><br><br>
 
     <div class="row">
       <div class="col" v-for="product in products" :key="product.id">
